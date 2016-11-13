@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D97E4121DD7F8C400F82302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97E4111DD7F8C400F82302 /* AppDelegate.swift */; };
+		0D97E4141DD7F8C400F82302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97E4131DD7F8C400F82302 /* ViewController.swift */; };
+		0D97E4171DD7F8C500F82302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D97E4151DD7F8C500F82302 /* Main.storyboard */; };
+		0D97E4191DD7F8C500F82302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D97E4181DD7F8C500F82302 /* Assets.xcassets */; };
+		0D97E41C1DD7F8C500F82302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D97E41A1DD7F8C500F82302 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D97E40E1DD7F8C400F82302 /* Phone Call and Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Call and Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D97E4111DD7F8C400F82302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D97E4131DD7F8C400F82302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D97E4161DD7F8C500F82302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D97E4181DD7F8C500F82302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D97E41B1DD7F8C500F82302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D97E41D1DD7F8C500F82302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D97E40B1DD7F8C400F82302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D97E4051DD7F8C400F82302 = {
+			isa = PBXGroup;
+			children = (
+				0D97E4101DD7F8C400F82302 /* Phone Call and Text */,
+				0D97E40F1DD7F8C400F82302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D97E40F1DD7F8C400F82302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D97E40E1DD7F8C400F82302 /* Phone Call and Text.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D97E4101DD7F8C400F82302 /* Phone Call and Text */ = {
+			isa = PBXGroup;
+			children = (
+				0D97E4111DD7F8C400F82302 /* AppDelegate.swift */,
+				0D97E4131DD7F8C400F82302 /* ViewController.swift */,
+				0D97E4151DD7F8C500F82302 /* Main.storyboard */,
+				0D97E4181DD7F8C500F82302 /* Assets.xcassets */,
+				0D97E41A1DD7F8C500F82302 /* LaunchScreen.storyboard */,
+				0D97E41D1DD7F8C500F82302 /* Info.plist */,
+			);
+			path = "Phone Call and Text";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D97E40D1DD7F8C400F82302 /* Phone Call and Text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D97E4201DD7F8C500F82302 /* Build configuration list for PBXNativeTarget "Phone Call and Text" */;
+			buildPhases = (
+				0D97E40A1DD7F8C400F82302 /* Sources */,
+				0D97E40B1DD7F8C400F82302 /* Frameworks */,
+				0D97E40C1DD7F8C400F82302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phone Call and Text";
+			productName = "Phone Call and Text";
+			productReference = 0D97E40E1DD7F8C400F82302 /* Phone Call and Text.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D97E4061DD7F8C400F82302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Campus Coach";
+				TargetAttributes = {
+					0D97E40D1DD7F8C400F82302 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G56E73BFHN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0D97E4091DD7F8C400F82302 /* Build configuration list for PBXProject "Phone Call and Text" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D97E4051DD7F8C400F82302;
+			productRefGroup = 0D97E40F1DD7F8C400F82302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D97E40D1DD7F8C400F82302 /* Phone Call and Text */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D97E40C1DD7F8C400F82302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D97E41C1DD7F8C500F82302 /* LaunchScreen.storyboard in Resources */,
+				0D97E4191DD7F8C500F82302 /* Assets.xcassets in Resources */,
+				0D97E4171DD7F8C500F82302 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D97E40A1DD7F8C400F82302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D97E4141DD7F8C400F82302 /* ViewController.swift in Sources */,
+				0D97E4121DD7F8C400F82302 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D97E4151DD7F8C500F82302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D97E4161DD7F8C500F82302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D97E41A1DD7F8C500F82302 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D97E41B1DD7F8C500F82302 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D97E41E1DD7F8C500F82302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D97E41F1DD7F8C500F82302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D97E4211DD7F8C500F82302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G56E73BFHN;
+				INFOPLIST_FILE = "Phone Call and Text/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coach.campus.Phone-Call-and-Text";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0D97E4221DD7F8C500F82302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G56E73BFHN;
+				INFOPLIST_FILE = "Phone Call and Text/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coach.campus.Phone-Call-and-Text";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D97E4091DD7F8C400F82302 /* Build configuration list for PBXProject "Phone Call and Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D97E41E1DD7F8C500F82302 /* Debug */,
+				0D97E41F1DD7F8C500F82302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D97E4201DD7F8C500F82302 /* Build configuration list for PBXNativeTarget "Phone Call and Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D97E4211DD7F8C500F82302 /* Debug */,
+				0D97E4221DD7F8C500F82302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D97E4061DD7F8C400F82302 /* Project object */;
+}
